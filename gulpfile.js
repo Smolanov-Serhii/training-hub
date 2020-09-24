@@ -21,12 +21,10 @@ const sass = require('gulp-sass');
 //Порядок подключения файлов со стилями
 const styleFiles = [
    './src/scss/main.scss',
-   './src/scss/slick.scss',
-   './src/scss/media.css'
+   './src/scss/slick.scss'
 ]
 //Порядок подключения js файлов
 const scriptFiles = [
-   './src/js/lib.js',
    './src/js/slick.js',
    './src/js/main.js'
 ]

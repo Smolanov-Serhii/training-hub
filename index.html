@@ -5,10 +5,13 @@
     <title>Training Hub</title>
     <link href="src/scss/normalize.css" rel="stylesheet">
     <link href="dist/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="contact-section">
+        <div class="contact-section container">
             <div class="contact-section__logo">
                 <img src="src/img/header-logo.svg">
             </div>
@@ -21,24 +24,24 @@
                 <a href="mailto:evgeniy@gmail.com">evgeniy@gmail.com</a>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li>Главная</li>
-                <li>Тренинги</li>
-                <li>Школа Бизнес тренеров</li>
-                <li>Тренера</li>
-                <li>Корпоративное обучение</li>
-                <li>Новости</li>
+        <nav class="main-nav">
+            <ul class="main-nav__list container">
+                <li class="main-nav__item"><a href="">Главная</a></li>
+                <li class="main-nav__item"><a href="">Тренинги</a></li>
+                <li class="main-nav__item"><a href="">Школа Бизнес тренеров</a></li>
+                <li class="main-nav__item"><a href="">Тренера</a></li>
+                <li class="main-nav__item"><a href="">Корпоративное обучение</a></li>
+                <li class="main-nav__item"><a href="">Новости</a></li>
             </ul>
         </nav>
     </header>
     <section class="header-slider">
         <ul class="header-slider__list">
             <li class="header-slider__item" style="background-image: url(src/img/header-slide-1.jpg)">
-                <div class="header-slider__title">
+                <div class="header-slider__title container">
                     Цели и миссии
                 </div>
-                <div class="header-slider__desc">
+                <div class="header-slider__desc container">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type
@@ -50,10 +53,10 @@
                 </a>
             </li>
             <li class="header-slider__item" style="background-image: url(src/img/header-slide-1.jpg)">
-                <div class="header-slider__title">
+                <div class="header-slider__title container">
                     Цели и миссии
                 </div>
-                <div class="header-slider__desc">
+                <div class="header-slider__desc container">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type
@@ -65,10 +68,10 @@
                 </a>
             </li>
             <li class="header-slider__item" style="background-image: url(src/img/header-slide-1.jpg)">
-                <div class="header-slider__title">
+                <div class="header-slider__title container">
                     Цели и миссии
                 </div>
-                <div class="header-slider__desc">
+                <div class="header-slider__desc container">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type
@@ -77,6 +80,7 @@
                 </div>
                 <a class="header-slider__more">
                     Подробнее ...
+
                 </a>
             </li>
         </ul>
@@ -420,6 +424,7 @@
         </div>
     </footer>
 
+    <script src="src/js/jquery-3.5.1.min.js"></script>
     <script src="dist/js/common.js"></script>
 </body>
 </html>
