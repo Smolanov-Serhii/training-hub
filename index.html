@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -85,7 +86,7 @@
             </li>
         </ul>
     </section>
-    <section class="start-date">
+    <section class="start-date container">
         <div class="start-date__digit">
             <div class="start-date__date">
                 15
@@ -101,14 +102,21 @@
             <div class="start-date__desc-subtitle">
                 ОКТЯБРЯ
             </div>
+            <div class="start-date__read-more">
+                <svg width="145" height="126" viewBox="0 0 145 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.8">
+                        <rect x="76" y="1" width="68" height="68" stroke="#C4C4C4" stroke-width="2"/>
+                        <rect x="1" y="33" width="92" height="92" stroke="#C4C4C4" stroke-width="2"/>
+                    </g>
+                </svg>
+                <a class="start-date__lnk" href="">Ознакомиться с программой курса.</a>
+            </div>
         </div>
-        <div class="start-date__read-more">
-            <a class="start-date__lnk" href="">Ознакомиться с программой курса.</a>
-        </div>
+
     </section>
     <section class="acardeon">
-        <ul class="acardeon__list active">
-            <li class="acardeon__item">
+        <ul class="acardeon__list">
+            <li class="acardeon__item active">
                 <div class="acardeon__title-closed">
                     Школа Бизнес тренеров
                 </div>
@@ -119,7 +127,7 @@
                     Школа бизнес тренеров - это 5 дневный интенсив,  позволяющий освоить основные
                     компитенции бизнес тренера. Активная форма обучения позволяет получить и отработать полученные навыки.
                 </div>
-                <a class="acardeon__lnk">
+                <a href="" class="acardeon__lnk">
                     Подробнее...
                 </a>
             </li>
@@ -128,7 +136,7 @@
                     Тренинг "Путь наставника"
                 </div>
                 <div class="acardeon__title">
-                    Школа Бизнес тренеров
+                    Тренинг "Путь наставника"
                 </div>
                 <div class="acardeon__desc">
                     Школа бизнес тренеров - это 5 дневный интенсив,  позволяющий освоить основные
@@ -143,7 +151,7 @@
                     Тренинг "Я - модератор"
                 </div>
                 <div class="acardeon__title">
-                    Школа Бизнес тренеров
+                    Тренинг "Я - модератор
                 </div>
                 <div class="acardeon__desc">
                     Школа бизнес тренеров - это 5 дневный интенсив,  позволяющий освоить основные
@@ -158,7 +166,7 @@
                     Школа директоров
                 </div>
                 <div class="acardeon__title">
-                    Школа Бизнес тренеров
+                    Школа директоров
                 </div>
                 <div class="acardeon__desc">
                     Школа бизнес тренеров - это 5 дневный интенсив,  позволяющий освоить основные
@@ -173,7 +181,7 @@
                     Тренинг под ключ
                 </div>
                 <div class="acardeon__title">
-                    Школа Бизнес тренеров
+                    Тренинг под ключ
                 </div>
                 <div class="acardeon__desc">
                     Школа бизнес тренеров - это 5 дневный интенсив,  позволяющий освоить основные
@@ -186,30 +194,32 @@
             </li>
         </ul>
     </section>
-    <section class="fullcycle">
-        <div class="fullcycle__title">
-            ПОЛНЫЙ ЦИКЛ
-        </div>
-        <div class="fullcycle__content">
-            <div class="fullcycle__image">
-                <img class="fullcycle__img-item" src="src/img/fuulcycle.jpg">
+    <div class="container-grey">
+        <section class="fullcycle container">
+            <div class="fullcycle__title">
+                ПОЛНЫЙ ЦИКЛ
             </div>
-            <div class="fullcycle__desc">
-                Мы проводим полный сопровождающий цикл обучения наших участников. После любого обучения
-                участник не остаётся один на один с полученными знаниями. Пост тренинговое сопровождение
-                представляет собой ряд заданий закрепляющих материал, коректировку после выполнения
-                и предоставления обратной связи. Мы всегда с Вами на связи.
+            <div class="fullcycle__content">
+                <div class="fullcycle__image">
+                    <img class="fullcycle__img-item" src="src/img/fuulcycle.jpg">
+                </div>
+                <div class="fullcycle__desc">
+                    Мы проводим полный сопровождающий цикл обучения наших участников. После любого обучения
+                    участник не остаётся один на один с полученными знаниями. Пост тренинговое сопровождение
+                    представляет собой ряд заданий закрепляющих материал, коректировку после выполнения
+                    и предоставления обратной связи. Мы всегда с Вами на связи.
+                </div>
             </div>
-        </div>
-        <div class="fullcycle__buttons">
-            <a class="fullcycle__more">
-                Узнать больше
-            </a>
-            <a class="fullcycle__resume">
-                РЕЗЮМЕ
-            </a>
-        </div>
-    </section>
+<!--            <div class="fullcycle__buttons">-->
+<!--                <a class="fullcycle__more">-->
+<!--                    Узнать больше-->
+<!--                </a>-->
+<!--                <a class="fullcycle__resume">-->
+<!--                    РЕЗЮМЕ-->
+<!--                </a>-->
+<!--            </div>-->
+        </section>
+    </div>
     <section class="counter">
         <div class="counter__item" style="border: 10px solid #F4902F">
             <div class="counter__change-digit">
